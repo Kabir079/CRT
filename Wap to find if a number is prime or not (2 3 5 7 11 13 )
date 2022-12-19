@@ -1,0 +1,25 @@
+int main()
+{
+    int number;
+    printf("Enter a number : ");
+    scanf("%d",&number);
+    
+    if (number % 2 == 0){
+        if (number % 3 == 0){
+            if (number % 5 == 0){
+                if (number % 7 == 0){
+                    if (number % 11 == 0){
+                        if (number % 13 == 0){
+                            
+                            printf("It is a prime number :", number);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    else {
+        
+        printf("The number is an even number \n",number);
+    }
+    return 0;
