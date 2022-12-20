@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+int main() 
+{
+  int a,b,c,d;
+  scanf("%d", &a);
+  scanf("%d", &b);
+  scanf("%d", &c);
+  scanf("%d", &d);
+  
+  int sumof,multof,divof,subof;
+
+  sumof = add(a,b);
+  multof = mult(a,b);
+  divof = div(a,b);
+  subof =  sub(a,b);
+  
+  printf("The summation of two number is : %d \n", sumof);
+  printf("The multiplication of two number is : %d \n", multof);
+  printf("The division of two number is : %d \n", divof);
+  printf("The substraction of two number is : %d \n", subof);
+  return 0;
+}
+
+/* add */
+int add(int num1, int num2)
+{
+  int result;
+  result = num1 + num2;
+  return result;
+}
+
+
+int mult(int num1,int num2)
+{
+  int mresult;
+  mresult = num1 * num2;
+  return mresult;
+}
+
+
+int div(int num1,int num2)
+{
+  int dresult;
+  dresult = num1 / num2;
+  return dresult;
+}
+
+
+int sub(int num1,int num2)
+{
+  int sresult;
+  sresult = num1 - num2;
+  return sresult;
+}
