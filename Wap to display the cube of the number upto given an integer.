@@ -1,7 +1,8 @@
 #include <stdio.h>
 void main()
  {
-    int i,d;
+    int i;
+    int d;
     printf("Input number of terms : ");
     scanf("%d", &d);
     for(i=1;i<=d;i++)
