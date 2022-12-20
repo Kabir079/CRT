@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    printf("Enter an integer between 2 to 100 : ");
+    scanf("%d", &i);  
+    printf("Number = %d \n",i);
+    if (i>2 && i<100){
+        printf("LOGIC for prime no.","\n");
+    }else{
+        printf("Please ! input the integer between 2 to 100 : ");
+        scanf("%d", &i);  
+        printf("Number = %d",i);
+        printf("Valid");
+    }
+    return 0;
+}
