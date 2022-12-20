@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int i ;
+    
+    for(i=1;i<50;i = i + 1){     /* for loop execution */
+        if(i%5 == 0){
+            continue;
+        }else{
+            printf("value of i: %d\n", i);
+        }
+    }
+    return 0;
+}
